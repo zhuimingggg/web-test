@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第一试卷网</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #007bff; /* 设置背景颜色为蓝色 */
+        }
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #0056b3;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .category {
+            margin-bottom: 20px;
+        }
+        .category h2 {
+            margin-bottom: 10px;
+        }
+        .category ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .category ul li {
+            display: inline-block;
+            margin: 5px;
+            padding: 5px 10px;
+            background-color: #e9ecef;
+            border-radius: 5px;
+        }
+        .recommend {
+            margin-top: 20px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .recommend h3 {
+            margin-bottom: 10px;
+        }
+        .recommend ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .recommend ul li {
+            margin: 5px 0;
+        }
+        /* 添加计算器样式 */
+        .calculator {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .calculator input {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 5px;
+        }
+        .calculator button {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>第一试卷网</h1>
+        <p>小学、初中各类精品试卷汇总资源</p>
+    </header>
+    <nav>
+        <a href="#">主页</a>
+        <a href="D:\Desktop\比例.docx" target="_blank">语文试卷</a>
+        <a href="D:\Desktop\中国传统文化艺术的魅力.pptx" target="_blank">数学试卷</a>
+        <a href="#">英语试卷</a>
+        <a href="#">物理试卷</a>
+        <a href="#">化学试卷</a>
+        <a href="#">政治试卷</a>
+        <a href="#">历史试卷</a>
+        <a href="#">地理试卷</a>
+        <a href="#">生物试卷</a>
+    </nav>
+    <div class="container">
+        <div class="category">
+            <h2>试卷分类</h2>
+            <ul>
+                <li>语文试卷</li>
+                <li>一年级</li>
+                <li>二年级</li>
+                <li>三年级</li>
+                <li>四年级</li>
+                <li>五年级</li>
+                <li>六年级</li>
+                <li>七年级</li>
+                <li>八年级</li>
+                <li>九年级</li>
+                <li>中考试卷</li>
+                <li>高一</li>
+                <li>高二</li>
+                <li>高三</li>
+                <li>高考试卷</li>
+            </ul>
+            <ul>
+                <li>数学试卷</li>
+                <li>一年级</li>
+                <li>二年级</li>
+                <li>三年级</li>
+                <li>四年级</li>
+                <li>五年级</li>
+                <li>六年级</li>
+                <li>七年级</li>
+                <li>八年级</li>
+                <li>九年级</li>
+                <li>中考试卷</li>
+                <li>高一</li>
+                <li>高二</li>
+                <li>高三</li>
+                <li>高考试卷</li>
+            </ul>
+            <ul>
+                <li>英语试卷</li>
+                <li>一年级</li>
+                <li>二年级</li>
+                <li>三年级</li>
+                <li>四年级</li>
+                <li>五年级</li>
+                <li>六年级</li>
+                <li>七年级</li>
+                <li>八年级</li>
+                <li>九年级</li>
+                <li>中考试卷</li>
+                <li>高一</li>
+                <li>高二</li>
+                <li>高三</li>
+                <li>高考试卷</li>
+            </ul>
+            <ul>
+                <li>物理试卷</li>
+                <li>八年级</li>
+                <li>九年级</li>
+                <li>中考试卷</li>
+                <li>高一</li>
+                <li>高二</li>
+                <li>高三</li>
+                <li>高考试卷</li>
+            </ul>
+            <ul>
+                <li>化学试卷</li>
+                <li>九年级</li>
+                <li>中考试卷</li>
+                <li>高一</li>
+                <li>高二</li>
+                <li>高三</li>
+                <li>高考试卷</li>
+            </ul>
+            <ul>
+                <li>政治试卷</li>
+                <li>七年级</li>
+                <li>八年级</li>
+                <li>九年级</li>
+                <li>中考试卷</li>
+                <li>高一</li>
+                <li>高二</li>
+                <li>高三</li>
+                <li>高考试卷</li>
+            </ul>
+            <ul>
+                <li>历史试卷</li>
+                <li>七年级</li>
+                <li>八年级</li>
+                <li>九年级</li>
+                <li>中考试卷</li>
+                <li>高一</li>
+                <li>高二</li>
+                <li>高三</li>
+                <li>高考试卷</li>
+            </ul>
+            <ul>
+                <li>地理试卷</li>
+                <li>七年级</li>
+                <li>八年级</li>
+                <li>中考试卷</li>
+                <li>高一</li>
+                <li>高二</li>
+                <li>高三</li>
+                <li>高考试卷</li>
+            </ul>
+            <ul>
+                <li>生物试卷</li>
+                <li>七年级</li>
+                <li>八年级</li>
+                <li>中考试卷</li>
+                <li>高一</li>
+                <li>高二</li>
+                <li>高三</li>
+                <li>高考试卷</li>
+            </ul>
+        </div>
+        <div class="recommend">
+            <h3>推荐试卷</h3>
+            <ul>
+                <li>2023年新高考湖北政治高考真题（解析版）</li>
+                <li>2023年高考新课标卷（五省）政治</li>
+                <li>2023年高考山东政治真题（解析版）</li>
+                <li>2023年高考全国乙卷政治真题（解析版）</li>
+                <li>2023年高考全国甲卷政治真题（解析版）</li>
+            </ul>
+        </div>
+    </div>
+    <!-- 添加简易计算器 -->
+    <div class="calculator">
+        <h4>简易计算器</h4>
+        <input type="text" id="calculatorInput" placeholder="输入表达式，例如：2+2">
+        <button onclick="calculate()">计算</button>
+        <p id="result"></p>
+    </div>
+
+    <script>
+        function calculate() {
+            const input = document.getElementById('calculatorInput').value;
+            try {
+                const result = eval(input); // 使用eval计算表达式
+                document.getElementById('result').innerText = `结果: ${result}`;
+            } catch (error) {
+                document.getElementById('result').innerText = "请输入有效的表达式";
+            }
+        }
+    </script>
+</body>
+</html>
